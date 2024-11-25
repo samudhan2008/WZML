@@ -3,7 +3,7 @@ class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
     ST_BN1_NAME = '🛠️ Update'
-    ST_BN1_URL = 'https://t.me/teluguzoneofc'
+    ST_BN1_URL = 'https://t.me/stream_center_main2'
     ST_BN2_NAME = '😘 Use Me'
     ST_BN2_URL = 'https://t.me/+9rrryWW6lxBjNjU1'
     ST_MSG = '''<b>✨ Made BY SA Studio ➔ Mirror & Leech</b>\n\nI Can Upload Files, Links, Torrents, etc. to Telegram, Google Drive, DDL Servers and Rclone Supported Sites!\n\n
