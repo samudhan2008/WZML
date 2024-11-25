@@ -85,7 +85,7 @@ async def _mirror_leech(client, message, isQbit=False, isLeech=False, sameDir=No
     ussr          = args['-u'] or args['-user']
     pssw          = args['-p'] or args['-pass']
     thumb         = args['-t'] or args['-thumb']
-    sshots        = int(ss) if (ss := (args['-ss'] or args['-screenshots'])).isdigit() else 0
+    sshots        = int(ss) if (ss := (args['-ss'] or args['-screenshots'])).isdigit() else 10
     bulk_start    = 0
     bulk_end      = 0
     ratio         = None
