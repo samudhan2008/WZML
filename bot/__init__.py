@@ -207,7 +207,7 @@ EXCEP_CHATS = environ.get('EXCEP_CHATS', '')
 if len(EXCEP_CHATS) == 0:
     EXCEP_CHATS = ''
 
-IS_PREMIUM_USER = True
+IS_PREMIUM_USER = False
 user = ''
 USER_SESSION_STRING = environ.get('USER_SESSION_STRING', '')
 if len(USER_SESSION_STRING) != 0:
