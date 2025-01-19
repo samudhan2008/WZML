@@ -207,19 +207,6 @@ EXCEP_CHATS = environ.get('EXCEP_CHATS', '')
 if len(EXCEP_CHATS) == 0:
     EXCEP_CHATS = ''
 
-IS_PREMIUM_USER = False
-user = ''
-USER_SESSION_STRING = environ.get('USER_SESSION_STRING', '')
-if len(USER_SESSION_STRING) != 0:
-    log_info("Creating client from USER_SESSION_STRING")
-    try:
-        user = tgClient('user', TELEGRAM_API, TELEGRAM_HASH, session_string=USER_SESSION_STRING,
-                        parse_mode=enums.ParseMode.HTML, no_updates=True).start()
-        IS_PREMIUM_USER = user.me.is_premium
-    except Exception as e:
-        log_error(f"Failed making client from USER_SESSION_STRING : {e}")
-        user = ''
-
 MEGA_EMAIL = environ.get('MEGA_EMAIL', '')
 MEGA_PASSWORD = environ.get('MEGA_PASSWORD', '')
 if len(MEGA_EMAIL) == 0 or len(MEGA_PASSWORD) == 0:
