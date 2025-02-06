@@ -22,7 +22,7 @@
 
 ---
 
-## 📑 ***Repo Features***
+## 📑 ***Repo-Features***
 
 <details>
   <summary><b>View All Features <sup><kbd>Click Here</kbd></sup></b></summary>
