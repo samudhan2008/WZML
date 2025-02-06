@@ -6,3 +6,4 @@ httplib2shim
 google_auth_oauthlib
 pyrofork
 tgcrypto
+pytz==2023.3
